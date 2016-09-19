@@ -6,21 +6,9 @@ namespace AlwaysSortArray
 {
     class SortArray
     {
-        private int Sv { get; set; }
-
-        public void Bn(int value)
-        {
-            Sv = value;
-            Add(Sv);
-            Add(value);
-
-            Sv = FindIndex(Sv);
-            new DateTime().ToString()
-        }
-
         private List<int> _list;
 
-        public List<int> List {get { return _list; } }; 
+        public List<int> List {get { return _list; } } 
 
         public SortArray()
         {
