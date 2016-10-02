@@ -4,6 +4,9 @@ namespace AlwaysSortArray
 {
     class Program
     {
+        /// <summary>
+        /// Ввод чисел до -1, вывод отсортированный массив
+        /// </summary>
         static void Main(string[] args)
         {
             int n;
