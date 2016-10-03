@@ -5,7 +5,8 @@ namespace AlwaysSortArray
     class Program
     {
         /// <summary>
-        /// Ввод чисел до -1, вывод отсортированный массив
+        /// Алгоритм сортировки (вставками).
+        /// Ввод чисела (n > -1), каждый новый поступивший элемент размещается в подходящее место среди ранее упорядоченных элементов.
         /// </summary>
         static void Main(string[] args)
         {
@@ -23,7 +24,7 @@ namespace AlwaysSortArray
                 sort.Add(n);
             }
 
-            Console.WriteLine(string.Join(" ", sort.List));
+            Console.WriteLine(string.Join(" ", sort.List)); // Тут используется List который указан в классе  SortArray? Т.е. в замен метода Set?
             Console.ReadLine();
         }
     }
