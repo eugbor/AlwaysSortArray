@@ -24,7 +24,7 @@ namespace AlwaysSortArray
                 sort.Add(n);
             }
 
-            Console.WriteLine(string.Join(" ", sort.List)); // Тут используется List который указан в классе  SortArray? Т.е. в замен метода Set?
+            Console.WriteLine(string.Join(" ", sort.List));
             Console.ReadLine();
         }
     }
